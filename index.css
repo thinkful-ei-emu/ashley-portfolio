@@ -76,63 +76,70 @@
     padding: 12% 0;
     text-align: center;
     border: red solid 3px;
-    height: 20px;
+    height: 10px;
     
     /* border: red 3px solid;    */
   }
   
 
   
-  .character {
-    border: red 3px solid;    
+  /* .character {
+    border: red 3px solid;  
+    
  
-    position: relative;   
-    padding-right: 30%;
+    position: relative;    
+    
+    
     
       
-  }
+  }  */
 
-  .full-icon {
+  /* .full-icon {
     border: 5px solid green;
     display: flex;
     flex-direction: column;
     
-  }
+  }  */
+
+  
 
  
   .character-icon {
-    border: blue 3px solid;
-    height: auto; 
-    position: relative;
-    right: 30%;
+    /* border: green 3px solid; */
+    /* height: 100%;  */
+    position: relative;   
     width: 100%;
-    top: 50px;  
+    right: 150px;
+    bottom: 100px;
+    
+   
 
   }
 
 
-
+/* 
 
   
   .interactive-text {
     font-size: 18px;
     font-weight: 900;
-  }
+  } */
 
   .speech-bubble {
-    border: blue 3px solid;   
-    padding-right: 5%;  
-    padding-left: 30%;   
+    /* border: blue 3px solid;    */
+     padding-right: 8%;  
+    padding-left: 45%;   
     position: relative;
-    top: 120px;
+    
+     
       
     
-  }
-
+  } 
+/* 
   .full-icon > .interactive-text {
     flex: 4 0;
 
-  }
+  } */
 
 
 
@@ -145,7 +152,7 @@
     color: black;    
     position: relative;
   }
-
+ 
     .triangle:before {
     content: ""; 
     position: absolute;
@@ -156,6 +163,8 @@
     left: 19px;
     bottom: -20px;  
   }
+
+  /*
   .about-me > .about-me-text {
     flex: 1 0;
 
@@ -165,14 +174,15 @@
 
   .about-me > .full-icon {
     flex: 1 0;
-  }
+  } */
 
 
-  /* section {
+  section {
     min-height: 200px;
     padding: 6% 0;
+    border: black solid 3px;
     
-  } */
+  }
   
   section:nth-child(even) {
     
@@ -197,7 +207,22 @@
         padding: 0px 10px;
         right: 30px;   
         
-    } 
+    }
+    
+    .about-me {
+      text-align: left;
+      padding-right: 200px;
+      height: 900px;
+      padding-left: 100px;
+      font-size: 25px;
+      
+    }
+
+    .about-me h2 {
+      text-align: center;
+      
+      padding-top: 100px;
+    }
 
     /* .character-icon {
       right: 140px;
@@ -211,30 +236,24 @@
         border: red 3px solid;
     }
 
-    .about-me {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-    
-    }
-
-    .about-me-text {
+    .placeholder {
       /* border: black 3px solid; */
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      height: 600px;
+      width: 40%;
+      float: left;
+      clear: right;
+      /* margin-right: 40px; */
       
+      
+
     }
 
-    .interactive-text {
+    /* .interactive-text {
       font-size: 25px;
-    }
+    } */
 
-    .about-me-text {
-      position: relative;
-    }
+  }
     
-
   
 
    
