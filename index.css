@@ -166,7 +166,7 @@
  
 
   .about-me > .full-icon {
-    flex: 2 0;
+    flex: 1 0;
   }
 
 
@@ -222,21 +222,13 @@
       
     }
 
-
-
-    .summary {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: left;
-    }
-
     .about-me-text {
       border: black 3px solid;
       display: flex;
       flex-direction: column;
       justify-content: center;      
      
-      padding: 10% 2% 0%;
+      /* padding: 10% 2% 0%; */
           
       
     }
