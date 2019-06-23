@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav role="navigation">
@@ -16,10 +17,10 @@
                   <div></div>
                    <div></div>           
             </div>                    
-            <ul class="nav-options hidden"> <!--display on hover or click-->
+            <ul class="nav-options "> <!--display on hover or click-->
                <li><a href="#about">About</a></li>            
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#resume">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
              </ul>     
 
@@ -30,24 +31,24 @@
     </nav>
     <main role="main">
         <header role="banner">
-                <h1>My Portfolio</h1>
+               
+       <h1>Ashley Oelbaum</h1>            
 
         </header>
-
-
-        <section class="about-me">        
-                <div class="full-icon">
-                    <div class="speech-bubble" >
-
+        <hr class="my-header-border">
+        <section class="full-icon">
+                <div class="speech-bubble" >
+    
                         <div class="bubble triangle"><span class="interactive-text">Welcome, to my online portfolio!</span></div>
+                      </div> 
+                <div class="character">    
+
+                        <img src="animated-portfolio-icon-updated-smileOnly.gif"  class="character-icon" alt="Chracter Icon">
+                       
                       </div>
-
-                <div class="character">
-                    <img src="animated-portfolio-icon-updated-smileOnly.gif"  class="character-icon" alt="Chracter Icon">
-
-                 </div>
-                </div>
-
+        </section>
+        <hr >
+        <section id="about" class="about-me">
                 <div class="about-me-text">
                         <h2>About Me</h2>
                         <p>I am a web developer who is located right outside of Atlanta, Georgia. My interests include playing video games, sports and spending time with friends, family and my two adorable dogs. Before becoming a web developer, I worked as a licensed social worker. I was initially attracted to the social work field because I enjoy working with people; however, after exploring different social work positions, I discovered that I craved a career that involved innovation and design. 
@@ -56,19 +57,35 @@
 
                 </div> 
 
-
-
         </section>
+        <hr>
 
-        <section>
-                Projects
+        <section id="projects">
+                <h2>Projects</h2>
+                <ul class="projects-info">                
+                <li><a href="https://thinkful-ei-emu.github.io/AshleyO-bookmarks-app/">Bookmark App</a></li>
+                <p>The bookmark App allows you to add and rate your favorite bookmarks!</p>
+                <li><a href="https://github.com/thinkful-ei-emu/ashley-corey-quizApp">Quiz App</a></li>
+                <p>The Quiz App allows you test your trivia knowledge and beat your high score!</p>
+                <div class="quizApp-container">
+                        <img src="quizApp.png" alt="Quiz App Screenshot" class="quizApp">
+
+                </div>
+                
+            </ul>
+                
         </section>       
 
 
     </main>
-    <footer role="content-info">
+    <footer id="contact" role="content-info">
         <div>
-            Contact
+            <h2>Contact</h2>
+            <ul class="contact-info">
+                <li><a href="mailto:ashleyoelbaum@.com">Email</a></li>
+                <li><a href="https://github.com/aoelbaum">github</a></li>
+                <li><a href="https://www.linkedin.com/in/ashley-o-278a1a89/">linkedin</a></li>
+            </ul>
         </div>
     </footer>
 

@@ -3,10 +3,10 @@
 }
 
 body {
-  font-family: "Open Sans",
-  sans-serif; 
+  font-family: 'Noto Serif', serif;
+  
   font-size: 20px;
-  color: #444;
+  background-color: rgb(243, 214, 243);
   text-align: center;
   line-height: 1.5;
 }
@@ -14,7 +14,12 @@ body {
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+  background-color: rgb(100, 28, 100);
+  color: white;
+}
+
+nav a , footer a {
+  color: white;
 }
 
 nav {
@@ -30,10 +35,29 @@ nav {
 
 }
 
+.contact-info {
+ display: flex;
+ flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
 
+.contact-info li {
+  display: inline-block;
+  padding: 0 2%;
+}
 
+.quizApp-container{
+ 
+  height: 500px;
+  width: 50%; 
+  margin: 0 auto;
 
-
+}
+.quizApp{
+  height: auto;
+  width: 100%;  
+}
 .home {
     position: relative;
 
@@ -48,20 +72,18 @@ nav {
 
 }  
 
+
+
+
+
 .hidden {
     display: none;
 }
 .hamburger {
    position: relative;
-   border: red 3px solid;  
-
+    
 }
 
-
-.nav-options {
-    border: red solid 3px;
-
-}
 
 
 .nav-options > li {
@@ -70,68 +92,60 @@ nav {
     right: 30px;     
 } 
 
-
+.interactive-text {
+  font-weight: bold;
+}
 
 header {
-  padding: 12% 0;
-  text-align: center;
-  border: red solid 3px;
-  height: 20px;
+  padding-top: 5%;
+  text-align: center;  
+  margin: 0 auto;
+ 
+}
 
-  /* border: red 3px solid;    */
+h1 {
+  font-size: 70px;
+}
+
+.character {  
+  height: 500px;
+  width: 50%;  
+}
+.speech-bubble {
+  
+  position: relative;
+  top: 100px;
+  left: 200px;  
+
+  width: 100%;
+  padding-right: 40%;
+  padding-left: 15%; 
+
 }
 
 
-
-.character {
-  border: red 3px solid;    
-
-  position: relative;   
-  padding-right: 30%;
-
+.character-icon{   
+  height: auto;
+  width: 100%;  
 
 }
 
 .full-icon {
-  border: 5px solid green;
-  display: flex;
-  flex-direction: column;
+ 
+  margin: 0 300px;
+  
 
 }
 
-
-.character-icon {
-  border: blue 3px solid;
-  height: auto; 
-  position: relative;
-  right: 30%;
-  width: 100%;
-  top: 50px;  
-
+.about-me-text p {
+  text-align: justify;
+  font-size: 25px;
 }
 
 
 
-
-
-.interactive-text {
-  font-size: 18px;
-  font-weight: 900;
-}
-
-.speech-bubble {
-  border: blue 3px solid;   
-  padding-right: 5%;  
-  padding-left: 30%;   
-  position: relative;
-  top: 120px;
-
-
-}
-
-.full-icon > .interactive-text {
-  flex: 4 0;
-
+.about-me {
+  margin: 0 200px;
 }
 
 
@@ -144,6 +158,7 @@ header {
   text-align: center;    
   color: black;    
   position: relative;
+  background: rgb(231, 226, 226);
 }
 
   .triangle:before {
@@ -156,34 +171,40 @@ header {
   left: 19px;
   bottom: -20px;  
 }
-.about-me > .about-me-text {
-  flex: 1 0;
 
-}
-
-
-
-.about-me > .full-icon {
-  flex: 1 0;
-}
-
-
-/* section {
-  min-height: 200px;
-  padding: 6% 0;
+section {
+  /* min-height: 200px; */
+   padding: 2% 0%;
+ 
   
-} */
+}
+
+.projects-info {
+  list-style: none;
+}
+
+.my-header-border{
+  border-width: 10px;
+
+}
+
+hr {
+ border-color: rgb(82, 4, 82);
+  border-width: 50px;
+  
+}
+
+section h2{
+  font-size: 50px;
+}
+
+
 
 section:nth-child(even) {
 
 }
 
-@media screen and (min-width: 500px) {
-  .interactive-text {
-    font-size: 20px;
-  }
 
-}
 @media screen and (min-width: 850px) {
 
   nav {
@@ -199,40 +220,13 @@ section:nth-child(even) {
 
   } 
 
-  /* .character-icon {
-    right: 140px;
-  } */
-
+  
   .hamburger{
       display: none;
   }
 
-  .home {
-      border: red 3px solid;
-  }
+  
 
-  .about-me {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  
 
-  }
-
-  .about-me-text {
-    /* border: black 3px solid; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-  }
-
-  .interactive-text {
-    font-size: 25px;
-  }
-
-  .about-me-text {
-    position: relative;
-  }
-
-
-
+}
