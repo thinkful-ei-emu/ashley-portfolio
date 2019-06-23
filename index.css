@@ -9,6 +9,7 @@
     color: #444;
     text-align: center;
     line-height: 1.5;
+    margin: 0px;
   }
   
   nav,
@@ -70,13 +71,20 @@
       right: 30px;     
   } 
 
+  h1 {
+    font-size: 50px;
+  }
+
 
   
   header {
-    padding: 12% 0;
+    padding: 5% 0% 5%;
     text-align: center;
-    border: red solid 3px;
-    height: 20px;
+    /* border: red solid 3px; */
+    background-color: rgb(146, 136, 136);
+    
+    
+    
     
     /* border: red 3px solid;    */
   }
@@ -187,33 +195,33 @@
     }
 
     h2 {
-      font-size: 30px;
+      font-size: 35px;
+    }
+
+    .about-me {
+      padding: 0%;
+      border: red solid 3px;
+      
     }
 
 
     .about-me-text {
       
-      border: black solid 3px;
+      /* border: black solid 3px; */
       /* display: flex;
       flex-direction: column; */
-      padding-top: 3%;
+      padding-top: 10%;
       padding-right: 5%;
       
     }
     .about-me-text p {
-      font-size: 25px;
+      font-size: 22px;
       text-align: justify;
       
     }
 
     .interactive-text {
       font-size: 25px;
-    }
-
-    ul {
-      border: black 3px solid;
-      width: 30%;
-      text-align: center;
     }
 
     
