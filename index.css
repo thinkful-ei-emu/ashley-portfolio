@@ -1,40 +1,4 @@
 * {
-<<<<<<< HEAD
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Open Sans",
-    sans-serif; 
-    font-size: 20px;
-    color: #444;
-    text-align: center;
-    line-height: 1.5;
-    margin: 0px;
-  }
-  
-  nav,
-  footer {
-    padding: 1% 0;
-    background-color: #aaa;
-  }
-  
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    padding: 8px 25px;
-    
-  }
-
-  
-
-=======
   box-sizing: border-box;
 }
 
@@ -70,7 +34,6 @@ section {
   min-height: 200px;
   padding: 6% 0;
   background-color: #bbb;
->>>>>>> wireframe
  
 }
 
@@ -103,22 +66,6 @@ section:nth-child(even) {
   background-color: black;
   margin: 6px 25px;
 
-<<<<<<< HEAD
-  h1 {
-    font-size: 50px;
-  }
-
-
-  
-  header {
-    padding: 5% 0% 5%;
-    text-align: center;
-    /* border: red solid 3px; */
-    background-color: rgb(146, 136, 136);
-    
-    
-    
-=======
 }  
 
 .hidden {
@@ -126,43 +73,9 @@ section:nth-child(even) {
 }
 .hamburger {
    position: relative;
->>>>>>> wireframe
     
 }
 
-<<<<<<< HEAD
-  
-
-  .character {
-    background: url(animated-portfolio-icon-updated-smileOnly.gif) no-repeat;
-    /* border: blue solid 3px; */
-    height: 500px;
-    width: 30%;
-    background-size: 100%;
-    float: left;
-    /* margin-right: 30px; */
-    
-   
-  }
-
- 
- 
-  .interactive-text {
-    font-size: 18px;
-    font-weight: 900;
-  }
-
-  .speech-bubble {
-    /* border: blue 3px solid;     */
-    padding-left: 20%;   
-    position: relative;
-    padding-right: 55%;
-    top:100px;
-    float: left;
-    
-  }
-
-=======
 
 
 .nav-options > li {
@@ -193,7 +106,6 @@ h1 {
   flex-direction: row;
   justify-content: center;
 }
->>>>>>> wireframe
 
 
 .character-icon{   
@@ -203,24 +115,6 @@ h1 {
 
 }
 
-<<<<<<< HEAD
-    .triangle:before {
-    content: ""; 
-    position: absolute;
-    border-left: 10px solid black;
-    border-right: 10px solid transparent;
-    border-top: 10px solid black;
-    border-bottom: 10px solid transparent;
-    left: 19px;
-    bottom: -20px;  
-  }
-  
-  section {
-    min-height: 100px;
-    padding: 6% 0;
-    
-  }
-=======
 .about-me {
   display: flex;
   flex-direction: row;
@@ -246,88 +140,16 @@ h1 {
 hr {
  border-color: gray;
   border-width: 50px;
->>>>>>> wireframe
   
 }
 
-<<<<<<< HEAD
-  @media screen and (min-width: 500px) {
-    .interactive-text {
-      font-size: 20px;
-    }
-    
-  }
-  @media screen and (min-width: 850px) {
-    
-    nav {
-        align-items: center;
-    }
-    
-    .nav-options > li{
-        list-style: none;
-        position: relative;
-        display: inline-block;
-        padding: 0px 10px;
-        right: 30px;   
-        
-    } 
-
-    /* .character-icon {
-      right: 140px;
-    } */
-
-    .hamburger{
-        display: none;
-    }
-
-    .home {
-        border: red 3px solid;
-    }
-
-       .summary {
-      font-size: 20px;
-      font-weight: bold;
-      text-align: left;
-    }
-
-    h2 {
-      font-size: 35px;
-    }
-
-    .about-me {
-      padding: 0%;
-      border: red solid 3px;
-      
-    }
-
-
-    .about-me-text {
-      
-      /* border: black solid 3px; */
-      /* display: flex;
-      flex-direction: column; */
-      padding-top: 10%;
-      padding-right: 5%;
-      
-    }
-    .about-me-text p {
-      font-size: 22px;
-      text-align: justify;
-      
-    }
-=======
 section h2{
   font-size: 50px;
 }
 
->>>>>>> wireframe
 
 @media screen and (min-width: 850px) {
 
-<<<<<<< HEAD
-    
-    
-=======
   nav {
       align-items: center;
   }
@@ -338,7 +160,6 @@ section h2{
       display: inline-block;
       padding: 0px 10px;
       right: 30px;   
->>>>>>> wireframe
 
   } 
   
