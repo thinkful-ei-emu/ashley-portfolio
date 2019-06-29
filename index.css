@@ -1,3 +1,13 @@
+
+
+@media screen and (max-width: 850px){
+  .speech-bubble {
+    display: none;
+  }
+
+  
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,7 +16,7 @@ body {
   font-family: "Open Sans",
   sans-serif; 
   font-size: 20px;
-  color: #444;
+  background-color:  rgb(243, 214, 243);
   text-align: center;
   line-height: 1.5;
 }
@@ -14,8 +24,10 @@ body {
 nav,
 footer {
   padding: 1% 0;
-  background-color: #aaa;
+  background-color: rgb(100, 28, 100);
+  color: white;
 }
+
 
 nav {
   position: fixed;
@@ -29,29 +41,50 @@ nav {
   padding: 8px 25px;
 }
 
+nav a , footer a {
+  color: white;
+  font-size: 1.5vw;
+  border: black 2px solid;
+}
+
 
 section {
   min-height: 200px;
-  padding: 6% 0;
-  background-color: #bbb;
+  padding: 1% 0;
+  background-color: rgb(243, 214, 243);
  
 }
 
-section:nth-child(even) {
-  background-color: #ddd;
-}
+/* section:nth-child(even) {
+  background-color: plum;
+} */
 
 
 .contact-info {
- display: flex;
- flex-direction: row;
-  list-style: none;
-  justify-content: center;
+  display: flex;
+  flex-direction: row;
+   list-style: none;
+   justify-content: center;
+ }
+
+ .contact-info > li {
+   flex: 0 0;
+ }
+ 
+ .contact-info li {
+   display: inline-block;
+   padding: 0 2%;
+ }
+
+.contact-info a {
+  font-size: 1.5vw;
+  padding: 0 30%;
+ 
+
 }
 
-.contact-info li {
-  display: inline-block;
-  padding: 0 2%;
+footer h2 {
+  font-size: 2vw;
 }
 
 
@@ -75,9 +108,6 @@ section:nth-child(even) {
    position: relative;
     
 }
-
-
-
 .nav-options > li {
     list-style: none;
     position: relative;
@@ -86,34 +116,41 @@ section:nth-child(even) {
 
 
 header {
-  padding-top: 5%;
-  
- 
+  padding-top: 3%;
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 6vw;
+  
 }
 
 .character {  
-  height: 500px;
-  width: 50%;   
-  margin: 0 auto;  
+  
+  width: 40%;
+  min-width: 300px;   
+  /* margin: 0 auto;  */
+ 
+  
 }
 
 .full-icon {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: center;  
+  margin: 0 auto;
+  max-height: 500px;
 }
 
 
 .character-icon{   
   height: auto;
-  width: 100%; 
+  width: 100%;   
+  border-radius: 100%; 
+ 
   
-
 }
+
+
 
 .about-me {
   display: flex;
@@ -123,14 +160,38 @@ h1 {
 
 .about-me-text p {
   text-align: justify;
-  font-size: 25px;  
+  font-size: 2vw;  
   width: 75%;
   margin: 0 auto;
 }
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+}
 
+.projects-container {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+ 
 
+}
+
+.projects p {
+  font-size: 1.5vw;
+  text-align: justify;
+  
+}
+
+.projects h3 {
+  font-size: 2vw;
+  
+  
+}
 .projects-info {
   list-style: none;
+  
 }
 
 .my-header-border{
@@ -138,14 +199,17 @@ h1 {
 }
 
 hr {
- border-color: gray;
+ border-color: rgb(82, 4, 82);
   border-width: 50px;
   
 }
 
 section h2{
-  font-size: 50px;
+  font-size: 4vw;
 }
+
+
+
 
 
 @media screen and (min-width: 850px) {
@@ -167,6 +231,38 @@ section h2{
       display: none;
   }
 
+  .speech-bubble {  
+    display: flex;
+    width: 40%;
+    justify-content: flex-start;    
+    flex-direction: column;
+    padding: 2% 2%;   
+    max-height: 200px;
+    
+  }
   
+  .bubble {  
+    position: relative;
+    right: 110px;
+    width: 100%;   
+    border: 4px solid black;
+    padding: 15px 0px;
+    text-align: center;    
+    color: black;    
+    position: relative;
+    background:rgb(231, 226, 226);
+    font-size: 2vw;
+  }
+  
+    .triangle:before {
+    content: ""; 
+    position: absolute;
+    border-left: 10px solid black;
+    border-right: 10px solid transparent;
+    border-top: 10px solid black;
+    border-bottom: 10px solid transparent;
+    left: 19px;
+    bottom: -20px;  
+  }
 
 }
