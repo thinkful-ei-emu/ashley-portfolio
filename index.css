@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
     box-sizing: border-box;
   }
   
@@ -33,44 +34,76 @@
 
   
 
+=======
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+}
+
+nav,
+footer {
+  padding: 1% 0;
+  background-color: #aaa;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  padding: 8px 25px;
+}
+
+
+section {
+  min-height: 200px;
+  padding: 6% 0;
+  background-color: #bbb;
+>>>>>>> wireframe
  
+}
 
-  .home {
-      position: relative;
-      
-  }
-
-
-  .hamburger div{
-    width: 45px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 25px;
-    
-  }  
-
-  .hidden {
-      display: none;
-  }
-  .hamburger {
-     position: relative;
-     border: red 3px solid;  
-
-  }
+section:nth-child(even) {
+  background-color: #ddd;
+}
 
 
-  .nav-options {
-      border: red solid 3px;
-      
-  }
+.contact-info {
+ display: flex;
+ flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
 
- 
-  .nav-options > li {
-      list-style: none;
-      position: relative;
-      right: 30px;     
-  } 
+.contact-info li {
+  display: inline-block;
+  padding: 0 2%;
+}
 
+
+.home {
+    position: relative;
+}
+
+
+.hamburger div{
+  width: 45px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 25px;
+
+<<<<<<< HEAD
   h1 {
     font-size: 50px;
   }
@@ -85,11 +118,19 @@
     
     
     
-    
-    /* border: red 3px solid;    */
-  }
-  
+=======
+}  
 
+.hidden {
+    display: none;
+}
+.hamburger {
+   position: relative;
+>>>>>>> wireframe
+    
+}
+
+<<<<<<< HEAD
   
 
   .character {
@@ -121,19 +162,48 @@
     
   }
 
+=======
 
 
-
-  .bubble {
-    width: 100%;
-    margin: 50px auto;
-    border: 4px solid black;
-    padding: 10px;
-    text-align: center;    
-    color: black;    
+.nav-options > li {
+    list-style: none;
     position: relative;
-  }
+    right: 30px;     
+} 
 
+
+header {
+  padding-top: 5%;
+  
+ 
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.character {  
+  height: 500px;
+  width: 50%;   
+  margin: 0 auto;  
+}
+
+.full-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+>>>>>>> wireframe
+
+
+.character-icon{   
+  height: auto;
+  width: 100%; 
+  
+
+}
+
+<<<<<<< HEAD
     .triangle:before {
     content: ""; 
     position: absolute;
@@ -150,11 +220,37 @@
     padding: 6% 0;
     
   }
-  
-  section:nth-child(even) {
-    
-  }
+=======
+.about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
+.about-me-text p {
+  text-align: justify;
+  font-size: 25px;  
+  width: 75%;
+  margin: 0 auto;
+}
+
+
+.projects-info {
+  list-style: none;
+}
+
+.my-header-border{
+  border-width: 10px;
+}
+
+hr {
+ border-color: gray;
+  border-width: 50px;
+>>>>>>> wireframe
+  
+}
+
+<<<<<<< HEAD
   @media screen and (min-width: 500px) {
     .interactive-text {
       font-size: 20px;
@@ -219,18 +315,37 @@
       text-align: justify;
       
     }
+=======
+section h2{
+  font-size: 50px;
+}
 
-    .interactive-text {
-      font-size: 25px;
-    }
+>>>>>>> wireframe
 
+@media screen and (min-width: 850px) {
+
+<<<<<<< HEAD
     
     
+=======
+  nav {
+      align-items: center;
+  }
+
+  .nav-options > li{
+      list-style: none;
+      position: relative;
+      display: inline-block;
+      padding: 0px 10px;
+      right: 30px;   
+>>>>>>> wireframe
+
+  } 
+  
+  .hamburger{
+      display: none;
+  }
 
   
 
-   
-   
-
-  
-  
+}
