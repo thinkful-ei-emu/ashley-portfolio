@@ -24,4 +24,13 @@ function handleTextAnimation() {
  
 }
 
+function handleNavMenu() {
+  $(".hamburger").on("click", event => {
+    event.preventDefault();
+    $('.nav-options').toggleClass('hidden');
+  });
+}
+
+
 $(handleTextAnimation);
+$(handleNavMenu);
