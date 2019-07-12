@@ -1,8 +1,12 @@
+
+
+
 @media screen and (max-width: 850px) {
   .speech-bubble {
     display: none;
   }
 }
+
 
 * {
   box-sizing: border-box;
@@ -33,28 +37,30 @@ nav {
   justify-content: flex-start;
   padding: 1% 2%;  
   width: 100%;
-  align-items: flex-start;
-  max-height: 45px;
+  align-items: flex-end;
+  max-height: 40px;
 }
 
 .nav-options {  
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  padding: 0% 2%;
+  justify-content: center;
+  padding: 0% 2% 2%;;
   background-color:  rgb(100, 28, 100);
   position: relative; 
-  bottom: 23px; 
-  right: 20px;
+  bottom: 20px; 
+  left: 20px;
   min-width: 80px;  
-  width: 18%; 
+  width: 54%; 
+  
 }
 
 
 nav a {
   color: white;
   font-size: 2vw;
+  text-decoration: none;
   
   
 }
@@ -89,11 +95,6 @@ section {
 }
 
 
-
-/* .contact-info > li {
-  flex: 0 0;
-} */
-
 .list-info {
   display: inline-block;
   padding: 0% 2% 2%;
@@ -123,16 +124,19 @@ section {
 }
 
 .hamburger div {
-  width: 32px;
+  width: 100%;
   height: 4px;
   background-color: white;
-  margin: 6px;  
+  margin: 6px;   
+}
+.home{
+  display: none;
 }
 
 .inline {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: flex-end;
   align-items: center; 
   width: 100%;    
  }
@@ -142,8 +146,9 @@ section {
 }
 .hamburger { 
   position: relative;
-  
-}
+  width: 50%;
+  padding-right: 1%;  
+  }
 
 .nav-options > li {
   list-style: none;
@@ -162,7 +167,7 @@ h1 {
 .character {
   width: 35%;
   min-width: 300px;  
-  /* margin: 0 auto;  */
+ 
   }
 
 .full-icon {
@@ -239,8 +244,60 @@ section h2 {
   width: 100%;
 }
 
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 9vw;
+  }
+
+  section h2 {
+    font-size: 7vw;
+  }
+
+  .projects p {
+    font-size: 5vw;
+  }
+  .projects h3 {
+    font-size: 6vw;
+  }
+
+  .about-me-text p {    
+    font-size: 5vw;  
+  }
+
+  .list-info a {
+    font-size: 5.5vw;
+  }
+
+  .contact-header {
+    font-size: 5vw;
+  } 
+
+  nav a {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  nav { 
+    max-height: 60px;
+  }
+
+  .hamburger div {
+    
+    margin: 10px;   
+  }
+
+
+}
+
+
 @media screen and (min-width: 850px) {
   .hidden {
+    display: block;
+  }
+
+  .home {
     display: block;
   }
   nav {
@@ -252,7 +309,7 @@ section h2 {
     
   }
   .inline{
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   .nav-options{
@@ -302,7 +359,7 @@ section h2 {
     position: relative;
     background: rgb(231, 226, 226);
     font-size: 2vw;
-    min-height: 29%;
+    min-height: 32%;
   }
 
   .triangle:before {
