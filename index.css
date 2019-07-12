@@ -38,7 +38,7 @@ nav {
   padding: 1% 2%;  
   width: 100%;
   align-items: flex-end;
-  max-height: 40px;
+  max-height: 42px;
 }
 
 .nav-options {  
@@ -138,7 +138,8 @@ section {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center; 
-  width: 100%;    
+  width: 100%; 
+   
  }
 
 .hidden {
@@ -146,8 +147,9 @@ section {
 }
 .hamburger { 
   position: relative;
-  width: 50%;
-  padding-right: 1%;  
+  width: 18%;
+  padding-right: 2%; 
+ 
   }
 
 .nav-options > li {
@@ -280,13 +282,12 @@ section h2 {
 @media screen and (min-width: 500px) {
 
   nav { 
-    max-height: 60px;
+    max-height: 65px;
   }
 
-  .hamburger div {
-    
-    margin: 10px;   
-  }
+  .hamburger div {    
+    margin: 10px; 
+    height: 5px;  }
 
 
 }
