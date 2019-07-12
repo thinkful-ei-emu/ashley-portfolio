@@ -8,14 +8,14 @@ function displayText() {
     $(".interactive-text").append(`${textArray[index++]} `);
     if(index === textArray.length){
     clearInterval(display)
-    }}, 200);
+    }}, 100);
 
 
 }
 
 function handleTextAnimation() {
   console.log("handle ran");
-  $("body").on("click", event => {
+  $("main").on("click", event => {
     event.preventDefault();
     $('.interactive-text').empty();
     displayText();
