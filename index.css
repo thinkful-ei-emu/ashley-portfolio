@@ -48,13 +48,8 @@ nav {
   padding: 0% 2% 2%;
   margin: 3px 0px;
   background-color:  rgb(100, 28, 100); 
-  width: 54%;
- 
-
-   
-  
+  width: 54%; 
 }
-
 
 nav a {
   color: white;
@@ -207,10 +202,28 @@ h1 {
   justify-content: center;
 }
 
-.projects-container {
+
+.project-button {
+  background-color: rgb(100, 28, 100); 
+  border-radius: .5vh;
+  border: none;
+  margin: 0 .5rem;
+  padding: .5rem 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);  
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-img-container {
   width: 75%;
-  margin: 0 auto;
+  margin: 0px auto 50px;
   text-align: center;
+}
+
+.project-button-container{
+  display: flex;
+  justify-content: center;
 }
 
 .projects p {
@@ -232,6 +245,10 @@ h1 {
 hr {
   border-color: rgb(82, 4, 82);
   border-width: 3vw;
+}
+
+.project-border {
+  border-width: .5vw;
 }
 
 section h2 {
@@ -383,14 +400,14 @@ section h2 {
   }
 
   section h2 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   .projects p {
     font-size: 1.5vw;
   }
   .projects h3 {
-    font-size: 2vw;
+    font-size: 3vw;
   }
 
   .about-me-text p {    
