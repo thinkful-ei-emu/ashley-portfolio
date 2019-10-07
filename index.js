@@ -13,8 +13,7 @@ function displayText() {
 
 }
 
-function handleTextAnimation() {
-  console.log("handle ran");
+function handleTextAnimation() {  
   $("main").on("click", event => {
     event.preventDefault();
     $('.interactive-text').empty();
