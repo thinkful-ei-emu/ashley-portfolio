@@ -1,12 +1,8 @@
-
-
-
 @media screen and (max-width: 850px) {
   .speech-bubble {
     display: none;
   }
 }
-
 
 * {
   box-sizing: border-box;
@@ -20,8 +16,7 @@ body {
   line-height: 1.5;
 }
 
-nav,
-footer {
+nav, footer {
   background-color: rgb(100, 28, 100);
   color: white;
 }
@@ -35,38 +30,31 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 1% 2%;  
+  padding: 1% 0% 0% 2%;
   width: 100%;
   align-items: flex-end;
-  max-height: 42px;
+  height: 50px;
 }
 
-.nav-options {  
+.nav-options {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0% 2% 2%;;
-  background-color:  rgb(100, 28, 100);
-  position: relative; 
-  bottom: 20px; 
-  left: 20px;
-  min-width: 80px;  
-  width: 54%; 
-  
+  padding: 0% 2% 2%;
+  margin: 3px 0px;
+  background-color: rgb(100, 28, 100);
+  width: 54%;
 }
-
 
 nav a {
   color: white;
-  font-size: 2vw;
+  font-size: 4vw;
   text-decoration: none;
-  
-  
 }
-.nav-options a:hover, footer i:hover{
+
+.nav-options a:hover, footer i:hover {
   color: rgb(219, 208, 208);
-  
 }
 
 footer a {
@@ -75,7 +63,6 @@ footer a {
 
 footer {
   text-align: center;
- 
 }
 
 section {
@@ -84,16 +71,14 @@ section {
   padding: 1%;
 }
 
-
 .contact-info {
   display: flex;
   flex-direction: row;
   list-style-type: none;
   justify-content: center;
-  align-items: center;  
-  padding: 0% 10%; 
+  align-items: center;
+  padding: 0% 10%;
 }
-
 
 .list-info {
   display: inline-block;
@@ -104,32 +89,29 @@ section {
   font-size: 3.5vw;
 }
 
-.fa-github,
-.fa-envelope,
-.fa-linkedin {
+.fa-github, .fa-envelope, .fa-linkedin {
   color: white;
- 
 }
 
 .contact-header {
-  font-size: 3vw;  
+  font-size: 3vw;
   text-align: center;
   padding-top: 1%;
   padding-bottom: 0%;
-  
 }
 
 .home {
-  position: relative;     
+  position: relative;
 }
 
 .hamburger div {
   width: 100%;
   height: 4px;
   background-color: white;
-  margin: 6px;   
+  margin: 6px;
 }
-.home{
+
+.home {
   display: none;
 }
 
@@ -137,29 +119,31 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  align-items: center; 
-  width: 100%; 
-   
- }
+  align-items: center;
+  width: 100%;
+  align-self: center;
+}
 
 .hidden {
   display: none;
 }
-.hamburger { 
+
+.hamburger {
   position: relative;
   width: 18%;
-  padding-right: 2%; 
- 
-  }
+  padding-right: 2%;
+  align-self: center;
+  padding-top: 1%;
+  margin-right: 5px;
+}
 
-.nav-options > li {
+.nav-options>li {
   list-style: none;
-   
 }
 
 header {
   margin-top: 0%;
-  padding-top: 6%; 
+  padding-top: 6%;
 }
 
 h1 {
@@ -168,9 +152,8 @@ h1 {
 
 .character {
   width: 35%;
-  min-width: 300px;  
- 
-  }
+  min-width: 300px;
+}
 
 .full-icon {
   display: flex;
@@ -178,7 +161,6 @@ h1 {
   justify-content: center;
   margin: 0 auto;
   max-height: 600px;
- 
 }
 
 .character-icon {
@@ -199,16 +181,34 @@ h1 {
   width: 75%;
   margin: 0 auto;
 }
+
 .projects {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.projects-container {
+.project-button {
+  background-color: rgb(100, 28, 100);
+  border-radius: .5vh;
+  border: none;
+  margin: 0 .5rem;
+  padding: .5rem 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.project-img-container {
   width: 75%;
-  margin: 0 auto;
+  margin: 0px auto 50px;
   text-align: center;
+}
+
+.project-button-container {
+  display: flex;
+  justify-content: center;
 }
 
 .projects p {
@@ -219,6 +219,7 @@ h1 {
 .projects h3 {
   font-size: 4vw;
 }
+
 .projects-info {
   list-style-type: none;
 }
@@ -232,16 +233,20 @@ hr {
   border-width: 3vw;
 }
 
+.project-border {
+  border-width: .5vw;
+}
+
 section h2 {
   font-size: 5vw;
 }
 
-.quizApp-container {
+.project-container {
   margin: 0 auto;
   width: 75%;
 }
 
-.quizApp {
+.projectImg {
   height: auto;
   width: 100%;
 }
@@ -250,105 +255,86 @@ section h2 {
   h1 {
     font-size: 9vw;
   }
-
   section h2 {
     font-size: 7vw;
   }
-
   .projects p {
     font-size: 5vw;
   }
   .projects h3 {
     font-size: 6vw;
   }
-
-  .about-me-text p {    
-    font-size: 5vw;  
+  .about-me-text p {
+    font-size: 5vw;
   }
-
   .list-info a {
     font-size: 5.5vw;
   }
-
   .contact-header {
     font-size: 5vw;
-  } 
-
+  }
   nav a {
     font-size: 4vw;
   }
 }
 
 @media screen and (min-width: 500px) {
-
-  nav { 
-    max-height: 65px;
+  nav {
+    min-height: 78px;
+    max-height: 78px;
   }
-
-  .hamburger div {    
-    margin: 10px; 
-    height: 5px;  }
-
-
+  .hamburger div {
+    margin: 10px;
+    height: 5px;
+  }
 }
-
 
 @media screen and (min-width: 850px) {
   .hidden {
     display: block;
   }
-
   .home {
     display: block;
   }
   nav {
-    align-items: center;    
+    align-items: center;
     max-height: 80px;
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
     justify-content: space-between;
-    
+    padding: 0% 2%;
   }
-  .inline{
+  .inline {
     flex-direction: row-reverse;
   }
-
-  .nav-options{
+  .nav-options {
     display: flex;
     flex-direction: row;
-    bottom: 0px;
     justify-content: flex-end;
-    right: 0px;
-    width: 100%;  
-    padding: 1% 0%;  
+    width: 100%;
+    padding: 1% 0%;
+    margin: 0px;
+    background-color: transparent;
   }
-
-  nav a  {
+  nav a {
     font-size: 1.5vw;
   }
-
- 
-  .nav-options > li {
+  .nav-options>li {
     list-style: none;
     position: relative;
     display: inline-block;
-    padding: 0px 10px; 
-      
+    padding: 0px 10px;
   }
-
   .hamburger {
-    display: none;    
+    display: none;
   }
-
   .speech-bubble {
     display: flex;
     width: 40%;
     justify-content: flex-start;
     flex-direction: column;
     padding: 2% 0%;
-    
   }
-
   .bubble {
     position: relative;
     right: 50px;
@@ -362,7 +348,6 @@ section h2 {
     font-size: 2vw;
     min-height: 32%;
   }
-
   .triangle:before {
     content: "";
     position: absolute;
@@ -373,35 +358,28 @@ section h2 {
     left: 19px;
     bottom: -20px;
   }
-
   h1 {
     font-size: 5vw;
   }
-
   section h2 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
-
   .projects p {
     font-size: 1.5vw;
   }
   .projects h3 {
-    font-size: 2vw;
+    font-size: 3vw;
   }
-
-  .about-me-text p {    
+  .about-me-text p {
     font-size: 1.5vw;
   }
-
   header {
     padding-top: 6%;
   }
-
   .list-info a {
     font-size: 2.5vw;
   }
-
   .contact-header {
     font-size: 2vw;
-  }  
+  }
 }
