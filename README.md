@@ -1,10 +1,10 @@
 # My Portfolio
 
-Live App: [https://github.com/thinkful-ei-emu/ashley-portfolio](https://github.com/thinkful-ei-emu/ashley-portfolio) 
+Live App: [https://thinkful-ei-emu.github.io/ashley-portfolio/](https://thinkful-ei-emu.github.io/ashley-portfolio/) 
 
 ## Summary
 
-PLACEHOLDER
+I am a web developer, located right outside of Atlanta, Georgia and this is my online portfolio. Please checkout my recent projects and feel free to contact me if you are interested in connecting!
 
 ## Projects
 
