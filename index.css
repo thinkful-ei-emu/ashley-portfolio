@@ -30,11 +30,11 @@ nav {
   z-index: 10;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding: 1% 0% 0% 2%;
+  justify-content: center;
+  padding: 2% 0% 0%;
   width: 100%;
-  align-items: flex-end;
-  height: 50px;
+  min-height: 50px;
+  border-bottom: rgb(56, 24, 52) solid 1px;
 }
 
 .nav-options {
@@ -42,10 +42,10 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1% 0% 1%; 
-  margin: 3px 0px;
+  padding: .5% 0% 0%;
+  margin: 0px;
   background-color: rgb(100, 28, 100);
-  width: 54%; 
+  width: 100%;
 }
 
 nav a {
@@ -58,7 +58,9 @@ nav a {
 
 .option-item {
   width: 100%;
-  margin: 0px;
+  margin-top: 3px;
+  padding-top: 3px;
+  border-top: rgb(56, 24, 52) solid 1px;
 }
 
 .nav-options li:hover {
@@ -143,12 +145,11 @@ section {
 }
 
 .hamburger {
-  position: relative;
   width: 18%;
   padding-right: 2%;
   align-self: center;
   padding-top: 1%;
-  margin-right: 5px;
+  margin: 0 10px 10px;
 }
 
 .nav-options>li {
@@ -304,7 +305,6 @@ section h2 {
 @media screen and (min-width: 500px) {
   nav {
     min-height: 78px;
-    max-height: 78px;
   }
   .hamburger div {
     margin: 10px;
@@ -361,8 +361,8 @@ section h2 {
   .option-item {
     width: 16%;
     margin: 0px;
+    border-top: none;
   }
-  
   .hamburger {
     display: none;
   }
