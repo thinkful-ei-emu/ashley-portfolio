@@ -233,12 +233,12 @@ h1 {
 
 .projects p {
   font-size: 3vw;
-  text-align: justify; 
+  text-align: center;
 }
 
 .projects .project-description p {
   margin: 0px auto 25px;
-  width: 75%;  
+  width: 75%;
 }
 
 .projects h3 {
