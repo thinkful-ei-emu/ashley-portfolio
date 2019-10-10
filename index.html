@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico?">
+    <link rel="apple-touch-icon" sizes="180x180" href="Media\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Media\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Media\favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="Media\favicon.ico?">
     <link rel="manifest" href="/site.webmanifest">
     <script src="https://kit.fontawesome.com/a894d55837.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
@@ -28,7 +28,7 @@
         <ul class="nav-options hidden">
             <li class="option-item"><a href="#about">About</a></li>
             <li class="option-item"><a href="#projects">Projects</a></li>
-            <li class="option-item"><a href="Ashley-Oelbaum-Resume-Oct-2019.pdf"
+            <li class="option-item"><a href="Media\Ashley-Oelbaum-Resume-Oct-2019.pdf"
                     download="Ashley_Oelbaum_Resume">Resume</a></li>
             <li class="option-item"><a href="#contact">Contact</a></li>
         </ul>
@@ -39,8 +39,11 @@
         </header>
         <hr class="my-header-border">
         <section class="full-icon">
+            <div class="character-color">
+
+            </div>          
             <div class="character">
-                <img src="animated-portfolio-icon-updated-smileOnly.gif" class="character-icon" alt="Chracter Icon">
+                <img src="Media\animated-portfolio-icon-updated-smileOnly.gif" class="character-icon" alt="Chracter Icon">
             </div>
             <div class="speech-bubble">
                 <div class="bubble triangle"><span class="interactive-text">Welcome to my online portfolio!</span></div>
@@ -69,9 +72,9 @@
                 <h2>Projects</h2>
                 <h3>L'Artiste</h3>
                 <span class="project-button-container">
-                    <p><a class='project-button' href="https://ashleys-artiste-client.now.sh/">Live App</a></p>
+                    <p><a class='project-button' href="https://ashleys-artiste-client.now.sh/" target="_blank">Live App</a></p>
                     <p><a class='project-button'
-                            href="https://github.com/thinkful-ei-emu/ashley-capstone-client">Github</a></p>
+                            href="https://github.com/thinkful-ei-emu/ashley-capstone-client" target="_blank">Github</a></p>
                 </span>
                 <div class="project-description">
                     <p>L'Artiste allows for you to create and display your artwork in a gallery of your choice.
@@ -80,15 +83,18 @@
                         to your profile page.</p>
                 </div>
                 <div class="project-img-container">
-                    <img src="capstone-readme-screenshot-landing.png" alt="L'Artiste Screenshot" class="projectImg">
+                    <img src="Media\capstone-readme-screenshot-landing.png" alt="L'Artiste Screenshot" class="projectImg">
                 </div>
+                <ul class="project-tech">
+                    <li>Tech Stack: JavaScript, React.js, HTML5, CSS, Node.js, PostgreSQL</li>                   
+                </ul>
                 <hr class="project-border">
                 <h3>Spaced Repetition</h3>
                 <span class="project-button-container">
-                    <p><a class='project-button' href="https://spaced-repetition.maplantz89.now.sh/register">Live
+                    <p><a class='project-button' href="https://spaced-repetition.maplantz89.now.sh/register" target="_blank">Live
                             App</a></p>
                     <p><a class='project-button'
-                            href="https://github.com/thinkful-ei-emu/spaced-repetition-MAC-client">Github</a></p>
+                            href="https://github.com/thinkful-ei-emu/spaced-repetition-MAC-client" target="_blank">Github</a></p>
                 </span>
                 <div class="project-description">
                     <p>Spaced Repetition is a responsive web application that allows users to learn a foreign language
@@ -96,21 +102,27 @@
                         to implement the spaced repetition learning technique.</p>
                 </div>
                 <div class="project-img-container">
-                    <img src="spaced-rep-dashboard.png" alt="Spaced Repeition Screenshot" class="projectImg">
+                    <img src="Media\spaced-rep-dashboard.png" alt="Spaced Repeition Screenshot" class="projectImg">
                 </div>
+                <ul class="project-tech">
+                    <li>Tech Stack: JavaScript, React.js, HTML5, CSS, Node.js, PostgreSQL</li>                   
+                </ul>
                 <hr class="project-border">
                 <h3>Sprout</h3>
                 <span class="project-button-container">
-                    <p><a class='project-button' href="https://sprout-app.now.sh/">Live App</a></p>
-                    <p><a class='project-button' href="https://github.com/thinkful-ei-emu/ZOMGPOW-Client">Github</a></p>
+                    <p><a class='project-button' href="https://sprout-app.now.sh/" target="_blank">Live App</a></p>
+                    <p><a class='project-button' href="https://github.com/thinkful-ei-emu/ZOMGPOW-Client" target="_blank">Github</a></p>
                 </span>
                 <div class="project-description">
                     <p>Sprout is a formative assessment tool used to help teachers deliver specific, goal-oriented, and
-                        timely feedback in the classroom.</p>
+                        timely feedback in the classroom.</p>                   
                 </div>
                 <div class="project-img-container">
-                    <img src="sprout-landing.png" alt="Sprout Screenshot" class="projectImg">
+                    <img src="Media\sprout-landing.png" alt="Sprout Screenshot" class="projectImg">
                 </div>
+                <ul class="project-tech">
+                    <li>Tech Stack: JavaScript, React.js, HTML5, CSS, Node.js, PostgreSQL, Socket.io</li>                   
+                </ul>
             </div>
         </section>
     </main>
@@ -118,8 +130,8 @@
         <h2 class="contact-header">Contact Me</h2>
         <ul class="contact-info">
             <li class="list-info"><a href="mailto:ashleyoelbaum@.com"><i class="fas fa-envelope"></i></a></li>
-            <li class="list-info"><a href="https://github.com/aoelbaum"><i class="fab fa-github"></i></i></a></li>
-            <li class="list-info"><a href="https://www.linkedin.com/in/ashley-o-278a1a89/"><i
+            <li class="list-info"><a href="https://github.com/aoelbaum" target="_blank"><i class="fab fa-github"></i></i></a></li>
+            <li class="list-info"><a href="https://www.linkedin.com/in/ashley-o-278a1a89/" target="_blank"><i
                         class="fab fa-linkedin"></i></a></li>
         </ul>
     </footer>
