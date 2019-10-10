@@ -322,7 +322,7 @@ section h2 {
   header {
     margin: 0%;
     padding-top: 3%;
-    height: 680px;   
+    height: 680px;
   }
   nav {
     align-items: center;
@@ -368,11 +368,11 @@ section h2 {
     padding-top: 20px;
   }
   .speech-bubble {
-    display: flex;   
+    display: flex;
     justify-content: flex-start;
     flex-direction: column;
     padding: 2% 0%;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
   }
   .bubble {
     position: absolute;
@@ -406,20 +406,14 @@ section h2 {
     padding: 5% 2% 0%;
     margin: 0px auto;
     width: 800px;
-    /* background: pink; */
-    /* background: linear-gradient(pink, rgb(243, 214, 243) 60%, pink);
-     */
     background: transparent;
   }
   .title-container {
-    /* background-color: yellow; */
-    /* border: black 5px solid;    */
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin: 100px auto;
     height: 200px;
-    /* width: 70%;  */
     padding: 0 15%;
   }
   fieldset {
@@ -434,7 +428,7 @@ section h2 {
   h1 {
     font-size: 80px;
     position: relative;
-    bottom: 20px; 
+    bottom: 20px;
   }
   section h2 {
     font-size: 2.5vw;
