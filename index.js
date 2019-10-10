@@ -30,8 +30,8 @@ function handleNavMenu() {
 function handleNavItems() {
   $('.option-item a').on('click', event => {
     event.preventDefault();
-    if ($(window).width() < 850) {
-      $('.nav-options').toggleClass('hidden');
+    if ($(window).width() < 900) {
+      $('.nav-options').toggleClass('hidden');      
     }
     let target = $(event.currentTarget).attr('href');
     if (target.includes('.pdf')) {
