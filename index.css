@@ -147,21 +147,17 @@ section {
   padding-right: 2%;
   align-self: center;
   padding-top: 1%;
-  margin: 0 10px 10px;  
+  margin: 0 10px 10px;
 }
 
 .nav-options>li {
   list-style: none;
 }
 
-
 header {
   margin-top: 0%;
-  /* padding-top: 15%;
-  padding-bottom: 5%; */
- 
+  background: linear-gradient(rgb(241, 150, 241), rgb(243, 214, 243), rgb(228, 135, 228));
 }
-
 
 h1 {
   font-size: 9vw;
@@ -171,34 +167,15 @@ h1 {
 .character {
   width: 35%;
   min-width: 300px;
- /* padding-top: 50px; */
- margin: 0px auto;
-
+  margin: 0px auto;
 }
-/* 
-.full-icon {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0 auto;  
-  max-height: 600px;
-} */
 
-/* .full-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0 auto;  
-  max-height: 600px;
-} */
-
-  
 fieldset {
-  border: none;  
+  border: none;
 }
+
 .character-icon {
   height: auto;
-  /* width: 400px;  */
   border-radius: 100%;
 }
 
@@ -206,12 +183,12 @@ fieldset {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color:#f0f0f0;
+  background-color: #f0f0f0;
 }
 
 .about-me-text p {
   text-align: justify;
-  font-size: 4vw;
+  font-size: 5vw;
   width: 75%;
   margin: 0 auto 3%;
 }
@@ -251,7 +228,7 @@ fieldset {
   justify-content: center;
 }
 
-.projects p{
+.projects p {
   font-size: 5vw;
   text-align: center;
 }
@@ -271,7 +248,7 @@ fieldset {
   text-align: center;
   display: flex;
   flex-direction: row;
-  justify-content: center; 
+  justify-content: center;
   width: 75%;
   list-style: none;
 }
@@ -292,7 +269,6 @@ fieldset {
 hr {
   border-color: rgb(82, 4, 82);
   border-width: 1vw;
-  
 }
 
 .project-border {
@@ -322,7 +298,7 @@ section h2 {
     height: 5px;
   }
   .hamburger {
-    width: 12%;   
+    width: 12%;
   }
   .project-button {
     font-size: 2vw;
@@ -342,16 +318,12 @@ section h2 {
   }
   .home {
     display: block;
-  }  
-
+  }
   header {
     margin: 0%;
-    padding-top: 3%; 
-    height: 680px;
-    /* background-color: rgb(243, 214, 243); */
-    background-color:#f0f0f0;   
-    background: linear-gradient(rgb(228, 135, 228), rgb(243, 214, 243), pink 80%, rgb(228, 135, 228));
-  } 
+    padding-top: 3%;
+    height: 680px;   
+  }
   nav {
     align-items: center;
     max-height: 80px;
@@ -393,16 +365,14 @@ section h2 {
     margin-top: 0px;
     position: relative;
     bottom: 250px;
-    padding-top: 20px;    
+    padding-top: 20px;
   }
   .speech-bubble {
-    display: flex;
-    /* width: 100%; */
+    display: flex;   
     justify-content: flex-start;
     flex-direction: column;
     padding: 2% 0%;
-    flex-wrap: wrap;
-    /* border: blue solid 3px; */
+    flex-wrap: wrap;   
   }
   .bubble {
     position: absolute;
@@ -414,11 +384,10 @@ section h2 {
     text-align: center;
     color: black;
     position: relative;
-    /* background: rgb(231, 226, 226); */
-    background-color:#f0f0f0;
+    background-color: #f0f0f0;
     font-size: 20px;
     border-radius: 10px;
-    min-height: 78px;  
+    min-height: 78px;
   }
   .triangle:before {
     content: "";
@@ -431,7 +400,7 @@ section h2 {
     bottom: -20px;
   }
   .character-bubble-container {
-    display: flex;    
+    display: flex;
     border-radius: 10px;
     justify-content: center;
     padding: 5% 2% 0%;
@@ -440,9 +409,9 @@ section h2 {
     /* background: pink; */
     /* background: linear-gradient(pink, rgb(243, 214, 243) 60%, pink);
      */
-     background: transparent;
+    background: transparent;
   }
-  .title-container{
+  .title-container {
     /* background-color: yellow; */
     /* border: black 5px solid;    */
     display: flex;
@@ -450,12 +419,9 @@ section h2 {
     justify-content: center;
     margin: 100px auto;
     height: 200px;
-    width: 70%; 
-    
-           
+    /* width: 70%;  */
+    padding: 0 15%;
   }
-
-  
   fieldset {
     border: 3.5px solid black;
     border-radius: 10px;
@@ -463,18 +429,12 @@ section h2 {
     min-width: 700px;
     height: 550px;
     margin-top: 100px;
-    /* background-color: rgb(243, 214, 243); */
-    /* background-color:#f0f0f0;    */
     background-color: transparent;
-    
   }
-  
   h1 {
     font-size: 80px;
     position: relative;
-    bottom: 20px;
-  
-    /* background-color: transparent */
+    bottom: 20px; 
   }
   section h2 {
     font-size: 2.5vw;
@@ -482,7 +442,7 @@ section h2 {
   .projects p {
     font-size: 1.2vw;
   }
-  .project-tech{
+  .project-tech {
     list-style: initial;
   }
   .projects li {
